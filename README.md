@@ -19,4 +19,35 @@ AI-powered responses → OpenAI API
 
 -dddd
 
+# 3. Installation
+- Clone the repository
+bash
+git clone https://github.com/YOUR_USERNAME/voice-assistant.git
+cd voice-assistant
+
+- Create and activate a conda environment
+
+lua
+
+conda create -n voicebot python=3.10
+conda activate voicebot
+
+- Install dependencies
+r
+
+conda install -c conda-forge pyaudio
+pip install SpeechRecognition pyttsx3 openai
+
+## 4. Usage
+Add your OpenAI API Key inside main.py.
+
+Run the program:
+css
+python main.py
+Speak into your microphone and the assistant will reply with voice output.
+
+* 5. Example
+Input: "Hello"
+
+Output: "Hi! How can I help you today?"
 
