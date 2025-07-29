@@ -23,9 +23,7 @@ This project is a simple Python-based voice assistant that:
 conda create -n voicebot python=3.10
 conda activate voicebot
 
-Install dependencies:
-
-bash
+- Install dependencies:
 
 conda install -c conda-forge pyaudio
 pip install SpeechRecognition pyttsx3 openai
