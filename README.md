@@ -26,8 +26,7 @@ conda activate voicebot
 Install dependencies:
 
 bash
-Copy
-Edit
+
 conda install -c conda-forge pyaudio
 pip install SpeechRecognition pyttsx3 openai
 
