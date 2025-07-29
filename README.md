@@ -22,7 +22,7 @@ This project is a simple Python-based voice assistant that:
 ```bash
 conda create -n voicebot python=3.10
 conda activate voicebot
-
+ ```
 - Install dependencies:
 
 conda install -c conda-forge pyaudio
