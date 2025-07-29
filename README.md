@@ -17,7 +17,7 @@ AI-powered responses → OpenAI API
 ## 2. Files Structure
 -main.py → main script of the voice assistant
 
-![Voice Assistant Screenshot](Screenshot_1)
+![Voice Assistant Screenshot](Screenshot_1.png.png)
 
 ## 3. Installation
 - Clone the repository
