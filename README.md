@@ -7,7 +7,7 @@ This project is a simple Python-based voice assistant that:
 
 - Converts responses back to audio
 
-# 1. Features
+## 1. Features
 Speech recognition → SpeechRecognition
 
 Text-to-speech → pyttsx3
@@ -19,7 +19,7 @@ AI-powered responses → OpenAI API
 
 -dddd
 
-# 3. Installation
+## 3. Installation
 - Clone the repository
 bash
 git clone https://github.com/YOUR_USERNAME/voice-assistant.git
