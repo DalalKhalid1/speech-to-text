@@ -22,7 +22,8 @@ AI-powered responses → OpenAI API
 ## 3. Installation
 - Clone the repository
 bash
-git clone https://github.com/YOUR_USERNAME/voice-assistant.git
+git clone https://github.com/DalalKhalid1/speech-to-text.git
+
 cd voice-assistant
 
 - Create and activate a conda environment
