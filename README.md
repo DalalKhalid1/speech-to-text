@@ -1,60 +1,35 @@
-# speech-to-textVoice Assistant
+# Speech-to-Text Voice Assistant
+
 This project is a simple Python-based voice assistant that:
 
 - Converts audio input to text
-
 - Generates responses using OpenAI's API
-
 - Converts responses back to audio
 
 ## 1. Features
-Speech recognition → SpeechRecognition
-
-Text-to-speech → pyttsx3
-
-AI-powered responses → OpenAI API 
+- Speech recognition → SpeechRecognition  
+- Text-to-speech → pyttsx3  
+- AI-powered responses → OpenAI API  
 
 ## 2. Files Structure
--main.py → main script of the voice assistant
+- `main.py` → main script of the voice assistant
 
 ## Screenshots
-
 ![App Screenshot](voice-assistant/Screenshot_1.png.png)
 
-
 ## 3. Installation
-- Clone the repository
-bash
-git clone https://github.com/DalalKhalid1/speech-to-text.git
-
-cd voice-assistant
-
-- Create and activate a conda environment
-
-lua
-
+- Create and activate a conda environment:
+```bash
 conda create -n voicebot python=3.10
 conda activate voicebot
 
-- Install dependencies
-r
+Install dependencies:
 
+bash
+Copy
+Edit
 conda install -c conda-forge pyaudio
 pip install SpeechRecognition pyttsx3 openai
-
-## 4. Usage
-1. Add your OpenAI API Key inside main.py.
-
-2. Run the program:
-
-css
-
-python main.py
-
-3.Speak into your microphone and the assistant will reply with voice output.
-
-### 5. Example
-Input: "Hello"
 
 Output: "Hi! How can I help you today?"
 
