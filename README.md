@@ -23,10 +23,23 @@ This project is a simple Python-based voice assistant that:
 conda create -n voicebot python=3.10
 conda activate voicebot
 
-- Install dependencies:
+### Install dependencies:
 
 conda install -c conda-forge pyaudio
 pip install SpeechRecognition pyttsx3 openai
 
 Output: "Hi! How can I help you today?"
+
+## 4. Usage
+
+1.Add your OpenAI API Key inside main.py.
+2.Run the program:
+python main.py
+
+Speak into your microphone and the assistant will reply with voice output.
+
+## 5. Example
+
+-Input: "Hello"
+-Output: "Hi! How can I help you today?"
 
