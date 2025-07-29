@@ -14,7 +14,7 @@ Text-to-speech → pyttsx3
 
 AI-powered responses → OpenAI API 
 
-# 2. Files Structure
+## 2. Files Structure
 -main.py → main script of the voice assistant
 
 -dddd
@@ -39,14 +39,17 @@ conda install -c conda-forge pyaudio
 pip install SpeechRecognition pyttsx3 openai
 
 ## 4. Usage
-Add your OpenAI API Key inside main.py.
+1. Add your OpenAI API Key inside main.py.
 
-Run the program:
+2. Run the program:
+
 css
-python main.py
-Speak into your microphone and the assistant will reply with voice output.
 
-* 5. Example
+python main.py
+
+3.Speak into your microphone and the assistant will reply with voice output.
+
+### 5. Example
 Input: "Hello"
 
 Output: "Hi! How can I help you today?"
